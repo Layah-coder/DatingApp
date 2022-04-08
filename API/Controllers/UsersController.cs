@@ -12,7 +12,7 @@ namespace API.Controllers
     [Authorize]
     public class UsersController : BaseApiController
     {
-        private readonly DataContext _context;
+        
         private readonly IUserRepository _userRepository;
         private readonly IMapper _mapper;
 
